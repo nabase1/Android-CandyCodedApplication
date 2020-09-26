@@ -28,6 +28,9 @@ import cz.msebera.android.httpclient.Header;
 public class MainActivity extends AppCompatActivity {
     private Candy[] candies;
     private CandyDbHelper candyDbHelper = new CandyDbHelper(this);
+    private String SHARE_DESCRIPTION = "";
+    private String mCandyImageUrl = "";
+    private String HASHTAG_CANDYCODED = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,7 +89,17 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(this, InfoActivity.class);
         startActivity(intent);
+
+        createShareIntent();
         return super.onOptionsItemSelected(item);
+    }
+
+    private void createShareIntent(){
+        Intent shareIntent = new Intent(Intent.ACTION_SEND);
+        shareIntent.setType("text/plain");
+        shareIntent.putExtra(Intent.EXTRA_TEXT, SHARE_DESCRIPTION + mCandyImageUrl + HASHTAG_CANDYCODED);
+
+        startActivity(shareIntent);
     }
 
     // ***
