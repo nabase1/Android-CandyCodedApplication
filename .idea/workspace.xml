@@ -9,10 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
-    </list>
+    <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,29 +152,37 @@
       <option name="project" value="LOCAL" />
       <updated>1601106451947</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="----codes for opening explicit map intent--------------">
+      <created>1601107274426</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601107274426</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="----codes for opening info intent added--------------" />
-    <option name="LAST_COMMIT_MESSAGE" value="----codes for opening info intent added--------------" />
+    <MESSAGE value="----codes for opening explicit map intent--------------" />
+    <option name="LAST_COMMIT_MESSAGE" value="----codes for opening explicit map intent--------------" />
   </component>
   <component name="WindowStateProjectService">
     <state x="648" y="324" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1601104472605">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="648" y="324" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1600.870@0.0.1600.870" timestamp="1601104472605" />
-    <state x="338" y="29" key="CommitChangelistDialog2" timestamp="1601106451219">
+    <state x="338" y="29" key="CommitChangelistDialog2" timestamp="1601107273642">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="338" y="29" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1601106451219" />
+    <state x="338" y="29" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1601107273642" />
     <state x="149" y="68" key="DiffContextDialog" timestamp="1601106369421">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="149" y="68" key="DiffContextDialog/0.0.1600.870@0.0.1600.870" timestamp="1601106369421" />
-    <state x="392" y="168" key="Vcs.Push.Dialog.v2" timestamp="1601106472680">
+    <state x="392" y="168" key="Vcs.Push.Dialog.v2" timestamp="1601107277867">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="392" y="168" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1601106472680" />
+    <state x="392" y="168" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1601107277867" />
   </component>
 </project>
